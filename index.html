@@ -55,11 +55,24 @@ color: rgb(0, 0, 0);
   margin-bottom: 50px;
 }
 }
+
+
+
+
+
+
+
+
 @media screen and (max-width: 580px) {
 .counter-up .content .box{
   width: 100%;
 }
 }
+
+
+
+
+
 @media screen and (max-width: 500px) {
 .wrapper{
   padding: 20px;
@@ -203,6 +216,83 @@ color: rgb(0, 0, 0);
     position: absolute;
   }
   @media(min-width:581px) and (max-width:10000px){
+
+   
+    .bt-nav{
+      display: none;
+    }
+ #footer{
+   display: none;
+ }
+    .testimonals {
+     display: flex;
+     flex-direction: row;
+     /* flex-wrap: wrap; */
+     width:25vw;
+     height: fit-content;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     border: 2px solid #fffafa;
+     /* box-shadow: 20px 8px 200px -25px; */
+     background: #f8f8f8;
+     /* margin-right: 10vw; */
+     margin-left: 25px;
+     }
+     .testi-name {
+     font-size: large;
+     margin: 0px;
+     color: black;
+     font-family: monospace;
+     font-weight: bolder;
+     
+     padding: 10px;}
+ .testi-img{
+   border-top: 2px solid orange;
+     /* width:12vw; */
+ }
+ .testimonals img {
+   
+     width: 12vw;
+     height: auto;
+     border-radius: 100%;
+   margin-top: 5vh;}
+ 
+ .testi-type {
+     font-family: cursive;
+     color: #5a5454;}
+ 
+ .testi-cont
+ 
+  {
+     font-size: medium;
+     font-family: ui-monospace;
+     font-weight: 400;
+     color: #744949;}
+ 
+ 
+ .itm{
+   width:20vw;
+   height: fit-content;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+ }
+ .testi-hd{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+ }
+ .testi-hd p{
+  font-size: large;
+    font-weight: bold;
+    font-family: -webkit-pictograph;
+ }
+  
+
     .counterdiv img{
       display: none;
       background:rgb(3, 3, 3);
@@ -244,6 +334,24 @@ color: rgb(0, 0, 0);
 .counter-Txt{text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;}
 .counter-Txt span{display:block; font-size:36px}
 @media(min-width:320px) and (max-width:767px){ 
+  #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: rgb(10, 10, 10);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* display: none; */
+        }
+       
+       #footer a img{
+         width: 11vw;
+         height: auto;
+       }
 .c-no{height:100%;}
 .counter-Txt{margin-top:35px;}
 .margin-bot-35{margin-bottom:35px;}
@@ -684,7 +792,8 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    background: white;
+    /* flex-wrap: wrap; */
     
   }
  
@@ -726,6 +835,7 @@ form{
      /* box-shadow: 20px 8px 200px -25px; */
      background: #fff5f5;
      margin-top: 20px;
+     margin-left: 5vw;
      
      }
      .testi-name {
@@ -875,6 +985,53 @@ form{
   }
   @media(min-width:320px) and (max-width:480px){
 
+    .copy{
+    width:80vw;
+    height: fit-content;
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+    .bt-nav{
+
+  position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100vw;
+            /* Height of the footer*/ 
+            height: fit-content;
+            background: #361b38;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* margin-left: 10vw; */
+            /* display: none; */
+}
+    #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: fit-content;
+            background: rgb(10, 10, 10);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* display: none; */
+        }
+       
+       #footer a img{
+         width: 11vw;
+         height: auto;
+       }
+
+    .right-foot{
+      display: none;
+    }
+
     .abt-hd p{
     font-size: 22px;
     font-weight: bold;
@@ -914,7 +1071,13 @@ margin-left: 1vw;}
 
   }
 </style>
+<div class="abt-hd">
+  <p>About Us</p>
+  </div>
+  <br>
 <div class="about">
+  
+   <br>
   <div class="abt-img">
     <img src="images/pexels-sadanand-gunaga-5528835.jpg" alt="" srcset="">
   </div>
@@ -980,8 +1143,20 @@ $(document).ready(function(){
 
 
 <style>
-  
+  form button{
+    padding: 5px 5px 5px 5px;
+    border: 2px solid orange;
+    background:transparent;
+    width: 150px;
+  }
+  form button:hover{
+    background: rgb(252, 251, 251);
+    color: rgb(5, 5, 5)
+    
+  }
 </style>
+
+<div class="foot">
 <div class="messageform">
   <div class="msgform">
     <p class="formhd"> Get In Touch With Our 
@@ -997,39 +1172,118 @@ $(document).ready(function(){
         <textarea id="story" name="story"
           rows="5" cols="33" placeholder="Any Short Message">
         </textarea>
+        <br>
+        <button>Book Now</button>
       
     </form>
   </div>
 </div>
 
 <style>
-        #footer {
-            position: fixed;
-            padding: 10px 10px 0px 10px;
-            bottom: 0;
-            width: 100%;
-            /* Height of the footer*/ 
-            height: 40px;
-            background: rgb(10, 10, 10);
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-       
-       #footer a img{
-         width: 11vw;
-         height: auto;
-       }
-      </style>
-      <div id="footer">
-        
-          <a href="http://wa.me/9503904361"><img src="images/cl.png" alt="" srcset=""></a>
-          <a href="http://wa.me/9503904361"><img src="images/fb.png" alt="" srcset=""></a>
-          <a href="http://wa.me/9503904361"><img src="images/wp.png" alt="" srcset=""></a>
-        
-        
+  .foot{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .right-foot{
+    width: 40vw;
+    height: fit-content;
+  }
+  .right-foot .address{
+    display: flex;
+    flex-direction: column;
+  }
+  .soc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .soc img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    /* filter: sepia(1.9); */
+
+  }
+  .soc img:hover{
+    transform:translateY(-10px);
+    filter:opacity(3);
+    
+    filter: contrast(1.4);
+  }
+  .foot-para{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    font-family: inherit;
+    border-bottom: 3px solid #f3c36c;
+  }
+  .foot-hd{
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    padding: 17px 10px 25px 10px
+  }
+ 
+</style>
+
+<div class="right-foot">
+
+      <div class="foot-para">
+        <p>Address : - Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quisquam maxime nemo, error accusamus sed.</p>
       </div>
 
+      <div class="foot-hd">
+        <p>Follow Us on Our Social Medias Handles</p>
+      </div>
+
+    <div class="address"></div>
+    <div class="soc">
+      
+      <a href="tel:9503904361" target="_blank"><img src="https://img.icons8.com/ios-filled/50/26e07f/phone-disconnected.png"/></a>
+
+      <a href="https://facebook.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+
+      <a href="https://wa.me/9503904361" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+      
+      <a href="https://instagram.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+     
+      </div>
+    
+    </div>
+  
+</div>
+
+<style>
+       
+      </style>
+     
+<div class="bt-nav">
+  <a href="tel:9503904361" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/apple-phone.png"/></a>
+      <a href="https://wa.me/9503904361" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+      <a href="https://facebook.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+      <a href="https://instagram.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+</div>
+<br>
+<style>
+  .copy{
+    width: 100vw;
+    height: fit-content;
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+</style>
+<div class="copy">
+  <p>A Product Of Lucky Developers</p>
+</div>
 <!-- ------------------footer--------------- -->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
