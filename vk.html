@@ -16,99 +16,7 @@
 
     <title>Hello, world!</title>
 
-    <style>
-      @media(min-width:320px) and (max-width:480px){
 
-
-        .gallery img{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* margin-right:30px;
-    margin-bottom:30px; */
-  }
-  .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* margin-right: 250px; */
-    margin-left: 0%;
-    /* position: absolute; */
-    background: white;
-    width: 80vw;
-    background-size: 100vw 100vh;
-  }
-  .gallery a img{
-    width: 98vw;
-    height: auto;
-    margin: bottom: 10px;
-    /* margin-left: 1vw; */
-  }
-        /* ---------------------- */
-
-        .testimonals {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     width:100vw;
-     height: fit-content;
-     justify-content: center;
-     align-items: center;
-     align-content: center;
-     text-align: center;
-     border: 2px solid #fffafa;
-     /* box-shadow: 20px 8px 200px -25px; */
-     background: #fff5f5;
-     margin-top: 20px;
-     
-     }
-     .testi-name {
-     font-size: large;
-     margin: 0px;
-     color: black;
-     font-family: monospace;
-     font-weight: bolder;
-     
-     padding: 10px;}
- .testi-img{
-   border-top: 2px solid orange;
-     /* width:12vw; */
- }
- .testimonals img {
-   
-     width: 35vw;
-     height: auto;
-     border-radius: 100%;
-   margin-top: 5vh;}
- 
- .testi-type {
-     font-family: monospace;
-     color: #5a5454;}
- 
- .testi-cont
- 
-  {
-     font-size: medium;
-     font-family: cursive;
-     font-weight: 400;
-     color: #744949;}
- 
- 
- .itm{
-   width: fit-content;
-   height: fit-content;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-content: center;
-   text-align: center;
-   margin-top: 10px;
- }
-
-      }
-    </style>
   </head>
   <body>
   
@@ -132,21 +40,21 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item " href="pre.html">Pre-Weeding</a></li>
-                <li><a class="dropdown-item" href="#">Weeding</a></li>
-                <li><a class="dropdown-item" href="#">Maternity</a></li>
-                <li><a class="dropdown-item" href="#">Portrait</a></li>
-                <li><a class="dropdown-item" href="#">Baby Shoot</a></li>
+                <li><a class="dropdown-item" href="wed.html">Weeding</a></li>
+                <li><a class="dropdown-item" href="mat.html">Maternity</a></li>
+                <li><a class="dropdown-item" href="por.html">Portrait</a></li>
+                <li><a class="dropdown-item" href="bab.html">Baby Shoot</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Client Gallery
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item active" href="#">Virat & Anushka</a></li>
-                <li><a class="dropdown-item" href="#">Rohit & Ritika</a></li>
+                <li><a class="dropdown-item" href="RR.html">Rohit & Ritika</a></li>
                 <!-- <li><hr class="dropdown-item"></li> -->
-                <li><a class="dropdown-item" href="#">Bumrah</a></li>
+                <li><a class="dropdown-item active" href="B.html">Bumrah</a></li>
               </ul>
             </li>
            
@@ -156,8 +64,31 @@
       </div>
     </nav>
 <style>
+ 
+   .gallery img{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right:30px;
+    margin-bottom:30px;
+
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 250px; */
+    margin-left: 0%;
+    /* position: absolute; */
+    background: white;
+    width: 100vw;
+    background-size: 100% 100%;
+  }
+ .gal{
+   margin-left:2.5vw;
+ }
   .main-img{
-    background-image: url(images/v\ \(10\).jpg);
+    background-image: url(images/h\ \(2\).jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:100vw 100vh;
@@ -165,12 +96,217 @@
     height: auto;
     background-position: center;
     z-index: 1;
+    /* margin-left: 10vw; */
   }
   .con{
     background: white;
     color: black;
   }
 </style>
+<style>
+  /* ---------------------- */
+
+  .testimonals {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width:30vw;
+height: fit-content;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+border: 2px solid #fffafa;
+/* box-shadow: 20px 8px 200px -25px; */
+background: #fff5f5;
+margin-top: 20px;
+margin-left: 35vw;
+
+}
+.testi-name {
+font-size: large;
+margin: 0px;
+color: black;
+font-family: monospace;
+font-weight: bolder;
+
+padding: 10px;}
+.testi-img{
+border-top: 2px solid orange;
+/* width:12vw; */
+}
+.testimonals img {
+
+width:10vw;
+height: auto;
+border-radius: 100%;
+margin-top: 5vh;}
+
+.testi-type {
+font-family: monospace;
+color: #5a5454;}
+
+.testi-cont
+
+{
+font-size: medium;
+font-family: cursive;
+font-weight: 400;
+color: #744949;}
+
+
+.itm{
+width: fit-content;
+height: fit-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+text-align: center;
+margin-top: 10px;
+}
+
+
+</style>
+<style>
+  .test-pr{
+    background: #fff5f5;
+  }
+ .one{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background: white;
+   /* flex-wrap: wrap; */
+   
+ }
+
+ @media(min-width:320px) and (max-width:767px){ 
+
+.one{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-left: 15vw;
+
+
+
+}
+.counter-up{
+  background-image: url(images/v.b.jpg);
+  background-size: 100% 100%;
+  filter: opacity(1.1);
+  color: rgb(0, 0, 0);
+}
+.counter{
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.testimonals {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:80vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid #fffafa;
+    /* box-shadow: 20px 8px 200px -25px; */
+    background: #fff5f5;
+    margin-top: 20px;
+    margin-left: 7.5vw;
+    
+    }
+    .testi-name {
+    font-size: large;
+    margin: 0px;
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    
+    padding: 10px;}
+.testi-img{
+  border-top: 2px solid orange;
+    /* width:12vw; */
+}
+.testimonals img {
+  
+    width: 35vw;
+    height: auto;
+    border-radius: 100%;
+  margin-top: 5vh;}
+
+.testi-type {
+    font-family: monospace;
+    color: #5a5454;}
+
+.testi-cont
+
+ {
+    font-size: medium;
+    font-family: cursive;
+    font-weight: 400;
+    color: #744949;}
+
+
+.itm{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+ }
+
+ @media screen and  (min-device-width:320px) and (max-device-width:480px){
+
+  .gallery img{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-right:30px;
+    margin-bottom:30px; */
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-right: 250px; */
+    margin-left: 0%;
+    /* position: absolute; */
+    background: white;
+    width: 80vw;
+    background-size: 80vw 100vh;
+  }
+  .gallery a img{
+    width:80vw;
+    height: auto;
+    margin-left:2vw;
+  }
+
+
+
+ }
+
+ @media(min-width:320px) and (max-width:480px){
+  .gallery a img{
+         /* margin-left: 6vw; */
+       }
+   
+ }
+</style>
+
 <div class="main-img">
   <br>
   <br>
@@ -209,9 +345,11 @@
       }
     }
     .arrow img{
-      width: 20%;
+      width:3vw;
       height: auto;
     }
+
+    
   </style>
   <span class="arrow"><img src="images/up.png" alt=""></span>
   <br>
@@ -223,6 +361,183 @@
   <br>
   <br>
   <br>
+
+</div>
+  <div class="pg-hd">
+    <p> My Pre Weeding Portfolio</p>
+</div>
+<style>
+  .pg-hd{
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    font-family: inherit ;
+    margin: 10px;
+    padding: 2px;
+    font-weight: bold;
+  }
+  .pg-hd p{
+    border-bottom: 2px solid orange;
+  }
+</style>
+<div class="gal">
+<div class="container">
+  <div class="gallery">
+    <a href="images/h (1).jpg" data-lightbox="models" data-title="caption1">
+    <img src="images/h (1).jpg" alt="" srcset=""> 
+    </a>
+    <a href="images/v (6).jpg" data-lightbox="models" data-title="caption2">
+
+      <img src="images/v (6).jpg" alt="" srcset=""> 
+    </a>
+    <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
+
+      <img src="images/v (5).jpg" alt="" srcset=""> 
+    </a>
+    <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
+
+      <img src="images/h (1).jpg" alt="" srcset=""> 
+    </a>
+    <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
+
+      <img src="images/h (8).jpg" alt="" srcset=""> 
+    </a>
+    <a href="images/h (12).jpg" data-lightbox="models" data-title="caption5">
+
+      <img src="images/h (12).jpg" alt="" srcset=""> 
+    </a>
+    </div>
+
+
+    <div class="gallery">
+      <a href="images/v (8).jpg" data-lightbox="models" data-title="caption1">
+      <img src="images/v (8).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/v (2).jpg" data-lightbox="models" data-title="caption2">
+
+        <img src="images/v (2).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (2).jpg" data-lightbox="models" data-title="caption3">
+
+        <img src="images/h (2).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
+
+        <img src="images/h (11).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/v (8).jpg" data-lightbox="models" data-title="caption5">
+
+        <img src="images/v (8).jpg" alt="" srcset=""> 
+      </a>
+      </div>
+    <div class="gallery">
+      <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
+
+        <img src="images/v (5).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
+
+        <img src="images/h (1).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
+
+        <img src="images/h (8).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
+
+        <img src="images/h (11).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/v (9).jpg" data-lightbox="models" data-title="caption5">
+
+        <img src="images/v (9).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (9).jpg" data-lightbox="models" data-title="caption5">
+
+        <img src="images/h (9).jpg" alt="" srcset=""> 
+      </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="gal">
+  <div class="container">
+    <div class="gallery">
+      <a href="images/h (1).jpg" data-lightbox="models" data-title="caption1">
+      <img src="images/h (1).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/v (6).jpg" data-lightbox="models" data-title="caption2">
+  
+        <img src="images/v (6).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
+  
+        <img src="images/v (5).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
+  
+        <img src="images/h (1).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
+  
+        <img src="images/h (8).jpg" alt="" srcset=""> 
+      </a>
+      <a href="images/h (12).jpg" data-lightbox="models" data-title="caption5">
+  
+        <img src="images/h (12).jpg" alt="" srcset=""> 
+      </a>
+      </div>
+  
+  
+      <div class="gallery">
+        <a href="images/v (8).jpg" data-lightbox="models" data-title="caption1">
+        <img src="images/v (8).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/v (2).jpg" data-lightbox="models" data-title="caption2">
+  
+          <img src="images/v (2).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (2).jpg" data-lightbox="models" data-title="caption3">
+  
+          <img src="images/h (2).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
+  
+          <img src="images/h (11).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/v (8).jpg" data-lightbox="models" data-title="caption5">
+  
+          <img src="images/v (8).jpg" alt="" srcset=""> 
+        </a>
+        </div>
+      <div class="gallery">
+        <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
+  
+          <img src="images/v (5).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
+  
+          <img src="images/h (1).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
+  
+          <img src="images/h (8).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
+  
+          <img src="images/h (11).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/v (9).jpg" data-lightbox="models" data-title="caption5">
+  
+          <img src="images/v (9).jpg" alt="" srcset=""> 
+        </a>
+        <a href="images/h (9).jpg" data-lightbox="models" data-title="caption5">
+  
+          <img src="images/h (9).jpg" alt="" srcset=""> 
+        </a>
+        </div>
+      </div>
+    </div>
 <div class="con">
 
   <div class="testimonals">
@@ -246,167 +561,163 @@
      <!-- -------------------------  -->
 
 
-     <div class="gal">
-      <div class="container">
-        <div class="gallery">
-          <a href="images/h (1).jpg" data-lightbox="models" data-title="caption1">
-          <img src="images/h (1).jpg" alt="" srcset=""> 
-          </a>
-          <a href="images/v (6).jpg" data-lightbox="models" data-title="caption2">
-
-            <img src="images/v (6).jpg" alt="" srcset=""> 
-          </a>
-          <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
-
-            <img src="images/v (5).jpg" alt="" srcset=""> 
-          </a>
-          <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
-
-            <img src="images/h (1).jpg" alt="" srcset=""> 
-          </a>
-          <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
-
-            <img src="images/h (8).jpg" alt="" srcset=""> 
-          </a>
-          <a href="images/h (12).jpg" data-lightbox="models" data-title="caption5">
-
-            <img src="images/h (12).jpg" alt="" srcset=""> 
-          </a>
-          </div>
-
-
-          <div class="gallery">
-            <a href="images/v (8).jpg" data-lightbox="models" data-title="caption1">
-            <img src="images/v (8).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/v (2).jpg" data-lightbox="models" data-title="caption2">
-  
-              <img src="images/v (2).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (2).jpg" data-lightbox="models" data-title="caption3">
-  
-              <img src="images/h (2).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
-  
-              <img src="images/h (11).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/v (8).jpg" data-lightbox="models" data-title="caption5">
-  
-              <img src="images/v (8).jpg" alt="" srcset=""> 
-            </a>
-            </div>
-          <div class="gallery">
-            <a href="images/v (5).jpg" data-lightbox="models" data-title="caption3">
-
-              <img src="images/v (5).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (1).jpg" data-lightbox="models" data-title="caption4">
-  
-              <img src="images/h (1).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (8).jpg" data-lightbox="models" data-title="caption5">
-  
-              <img src="images/h (8).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (11).jpg" data-lightbox="models" data-title="caption4">
-  
-              <img src="images/h (11).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/v (9).jpg" data-lightbox="models" data-title="caption5">
-  
-              <img src="images/v (9).jpg" alt="" srcset=""> 
-            </a>
-            <a href="images/h (9).jpg" data-lightbox="models" data-title="caption5">
-  
-              <img src="images/h (9).jpg" alt="" srcset=""> 
-            </a>
-            </div>
-          </div>
-        </div>
-</div>
-</div>
-<style>
-  #footer {
-      position: fixed;
-      padding: 10px 10px 0px 10px;
-      bottom: 0;
-      width: 100%;
-      /* Height of the footer*/ 
-      height: 40px;
-      background: grey;
-  }
-</style>
-<div id="footer">
-  
-</div>
-<style>
-  form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     
-  }
-  form a{
-    color: black;
-    font-size: 20px;
-  }
-  form input{
-    border: 1px solid rgb(61, 54, 41);
-    /* border-bottom: 2px solid orange; */
-    justify-content: center;
-    width: 80vw;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  textarea{
-    border: 1px solid rgb(61, 54, 41);    
-  }
-  .msgform .formhd{
-     
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    /* font-family: initial;
-     */
-    padding: 12px 5px 5px 5px;
-}
-.messageform{
-  background-color: rgb(226, 223, 217);
-}
-</style>
-
-
-<!-- -----------------------  -->
-<div class="messageform">
-  <div class="msgform">
-    <p class="formhd"> Get In Touch With Our 
-      <br>
-      Amazing Services !!</p>
-    <form action="" method="post">
-        
-      
-        <input type="text" placeholder="Write Your Full Name">
-        <input type="text" placeholder="Mobile Number">
-        <input type="text" placeholder="Email Address">
-        <p>Any Short Message</p>
-        <textarea id="story" name="story"
-          rows="5" cols="33" placeholder="Any Short Message">
-        </textarea>
-      
-    </form>
-  </div>
 </div>
+</div>
+<br>
+<br>
+
+<div class="foot">
+  <div class="messageform">
+    <div class="msgform">
+      <p class="formhd"> Get In Touch With Our 
+        <br>
+        Amazing Services !!</p>
+      <form action="" method="post">
+          
+        
+          <input type="text" placeholder="Write Your Full Name">
+          <input type="text" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Address">
+          <p>Any Short Message</p>
+          <textarea id="story" name="story"
+            columns="5" cols="33" placeholder="Any Short Message">
+          </textarea>
+          <br>
+          <button>Book Now</button>
+        
+      </form>
+    </div>
+  </div>
+  
+  <style>
+    .foot{
+      width: 100vw;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+    
+    .right-foot{
+      width: 40vw;
+      height: fit-content;
+    }
+    .right-foot .address{
+      display: flex;
+      flex-direction: column;
+    }
+    .soc{
+      display: flex;
+      flex-direction: flex;
+      justify-content: space-evenly;
+    }
+    .soc img{
+      width: 50px;
+      height: auto;
+      cursor: pointer;
+      transition: 0.5s;
+      /* filter: sepia(1.9); */
+  
+    }
+    .soc img:hover{
+      transform:translateY(-10px);
+      filter:opacity(3);
+      
+      filter: contrast(1.4);
+    }
+    .foot-para{
+      color: black;
+      font-size: larger;
+      font-weight: bolder;
+      padding: 10px 10px 10px 10px;
+      font-family: inherit;
+      border-bottom: 3px solid #f3c36c;
+    }
+    .foot-hd{
+      color: black;
+      font-size: large;
+      font-weight: 500;
+      padding: 17px 10px 25px 10px
+    }
+    .foot button{
+      border:2px solid orange;
+                        padding: 10px 10px 10px 10px;
+                        width:125px;
+                        background:transparent;
+                        font-weight: bolder;
+                        font-family: monospace;
+    }
+    .foot button:hover{
+      background-color: white;
+      color: black;
+    }
+   
+  </style>
+  
+  <div class="right-foot">
+  
+        <div class="foot-para">
+          <p>Address : - Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quisquam maxime nemo, error accusamus sed.</p>
+        </div>
+  
+        <div class="foot-hd">
+          <p>Follow Us on Our Social Medias Handles</p>
+        </div>
+  
+      <div class="address"></div>
+      <div class="soc">
+        
+        <a href="tel:9503904361" target="_blank"><img src="https://img.icons8.com/ios-filled/50/26e07f/phone-disconnected.png"/></a>
+  
+        <a href="https://facebook.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+  
+        <a href="https://wa.me/9503904361" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+        
+        <a href="https://instagram.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+       
+        </div>
+      
+      </div>
+    
+  </div>
+  
+  <style>
+         
+        </style>
+       
+  <!-- <div class="bt-nav">
+    <a href="tel:9503904361" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/apple-phone.png"/></a>
+        <a href="https://wa.me/9503904361" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+        <a href="https://facebook.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+        <a href="https://instagram.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+  </div> -->
+  <br>
+  <style>
+    .copy{
+      width: 100vw;
+      height: fit-content;
+      color: white;
+      background: black;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+    }
+  </style>
+ 
+  
 
 
 
 
-
+   
+<style>
+  .msgform{
+   
+    background:#aaa8a8;
+  }
+</style>
+ 
 <style>
   #footer {
       position: fixed;
@@ -428,13 +739,185 @@
   }
  
 </style>
-<div id="footer">
-    <img src="images/cff.png"  href="9503904361" alt="" srcset="">
-    <img class="fb" src="images/fb.png"  href="" alt="" srcset="">    
-    <img class="wp" src="images/wp.png" href="https://wa.me/9503904361"  alt="" srcset="">
-    
-    <img class="instaa" src="images/instaa.jpg" href=""  alt="" srcset="">
+<div class="bt-nav">
+  <a href="tel:9503904361" target="_blank"><img class="call" src="https://img.icons8.com/ios-filled/50/000000/apple-phone.png"/></a>
+      <a href="https://wa.me/9503904361" target="_blank"><img  src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+      <a href="https://facebook.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+      <a href="https://instagram.com"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
 </div>
+
+<style>
+  @media(min-width:581px) and (max-width:10000px){
+
+   
+.bt-nav{
+  display: none;
+}
+  }
+
+  @media(min-width:320px) and (max-width:480px){
+    .foot{
+      width: 100vw;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center;
+      
+    }
+    
+    .right-foot{
+      width: 40vw;
+      height: fit-content;
+    }
+    .right-foot .address{
+      display: flex;
+      flex-direction: column;
+    }
+    .soc{
+      display: flex;
+      flex-direction: flex;
+      justify-content: space-evenly;
+    }
+    .soc img{
+      width: 50px;
+      height: auto;
+      cursor: pointer;
+      transition: 0.5s;
+      /* filter: sepia(1.9); */
+  
+    }
+    .soc img:hover{
+      transform:translateY(-10px);
+      filter:opacity(3);
+      
+      filter: contrast(1.4);
+    }
+    .foot-para{
+      color: black;
+      font-size: larger;
+      font-weight: bolder;
+      padding: 10px 10px 10px 10px;
+      font-family: inherit;
+      border-bottom: 3px solid #f3c36c;
+    }
+    .foot-hd{
+      color: black;
+      font-size: large;
+      font-weight: 500;
+      padding: 17px 10px 25px 10px
+    }
+    .foot button{
+      border:2px solid orange;
+                        padding: 10px 10px 10px 10px;
+                        width:125px;
+                        background:transparent;
+                        font-weight: bolder;
+                        font-family: monospace;
+    }
+    .foot button:hover{
+      background-color: white;
+      color: black;
+    }
+   
+.call{
+  background-color: white;
+}
+    .right-foot{
+      display: none;
+    }
+
+.copy{
+width:100vw;
+height: fit-content;
+color: white;
+background: black;
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
+.bt-nav{
+
+position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100vw;
+        /* Height of the footer*/ 
+        height: fit-content;
+        background: #080808;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* margin-left: 0vw; */
+        /* display: none; */
+}
+
+
+  }
+</style>
+<style>form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+form a{
+  color: black;
+  font-size: 20px;
+}
+form input{
+  border: 1px solid rgb(61, 54, 41);
+  /* border-bottom: 2px solid orange; */
+  justify-content: center;
+  width: 80vw;
+  text-align: center;
+  margin-bottom: 20px;
+}
+textarea{
+  border: 1px solid rgb(61, 54, 41);    
+}
+.msgform .formhd{
+   
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  /* font-family: initial;
+   */
+  padding: 12px 5px 5px 5px;
+}
+.messageform{
+background-color: rgb(226, 223, 217);
+}
+
+   @media(min-width:581px) and (max-width:10000px){
+  
+  .messageform{
+    float: left;
+    width: 40vw;
+  }
+  .messageform input{
+    width: 20vw;
+  }
+  .messageform textarea{
+    width: 30vw;
+  }
+}
+
+
+
+</style>
+<div class="copy">
+  <p>A Product Of Lucky Developers</p>
+</div>
+
+
+
+
 
 
 
